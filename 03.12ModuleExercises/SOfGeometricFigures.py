@@ -44,3 +44,5 @@ elif type == "trapeze":
     b = float(input("Insert a number: "))  
     h = float(input("Insert a number: "))  
     trapeze(a,b,h)
+else:
+    print("Invalid input. Try again...")
