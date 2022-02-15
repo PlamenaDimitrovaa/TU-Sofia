@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1644924085 source:c:\users\user\desktop\tu-sofia\c\randexample\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
