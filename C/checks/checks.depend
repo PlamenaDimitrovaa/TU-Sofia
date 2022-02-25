@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1645777108 source:c:\users\user\desktop\tu-sofia\c\checks\main.c
+	<stdio.h>
+	<stdlib.h>
+
