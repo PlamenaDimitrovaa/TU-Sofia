@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1646231616 source:c:\users\user\desktop\tu-sofia\c\functionexercise\funcoddevennumber.c
+	<stdio.h>
+
+1646231661 source:c:\users\user\desktop\tu-sofia\c\functionexercise\main.c
+	<stdio.h>
+	<stdlib.h>
+
