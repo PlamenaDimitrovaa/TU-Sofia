@@ -1,2 +1,2 @@
 # TU-Sofia
-Python, C
+C, Python
