@@ -1,0 +1,15 @@
+C:\Users\Plamena\source\repos\Zadachi\Zadacha4\bin\Debug\net6.0\Zadacha4.exe
+C:\Users\Plamena\source\repos\Zadachi\Zadacha4\bin\Debug\net6.0\Zadacha4.deps.json
+C:\Users\Plamena\source\repos\Zadachi\Zadacha4\bin\Debug\net6.0\Zadacha4.runtimeconfig.json
+C:\Users\Plamena\source\repos\Zadachi\Zadacha4\bin\Debug\net6.0\Zadacha4.dll
+C:\Users\Plamena\source\repos\Zadachi\Zadacha4\bin\Debug\net6.0\Zadacha4.pdb
+C:\Users\Plamena\source\repos\Zadachi\Zadacha4\obj\Debug\net6.0\Zadacha4.csproj.AssemblyReference.cache
+C:\Users\Plamena\source\repos\Zadachi\Zadacha4\obj\Debug\net6.0\Zadacha4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Plamena\source\repos\Zadachi\Zadacha4\obj\Debug\net6.0\Zadacha4.AssemblyInfoInputs.cache
+C:\Users\Plamena\source\repos\Zadachi\Zadacha4\obj\Debug\net6.0\Zadacha4.AssemblyInfo.cs
+C:\Users\Plamena\source\repos\Zadachi\Zadacha4\obj\Debug\net6.0\Zadacha4.csproj.CoreCompileInputs.cache
+C:\Users\Plamena\source\repos\Zadachi\Zadacha4\obj\Debug\net6.0\Zadacha4.dll
+C:\Users\Plamena\source\repos\Zadachi\Zadacha4\obj\Debug\net6.0\refint\Zadacha4.dll
+C:\Users\Plamena\source\repos\Zadachi\Zadacha4\obj\Debug\net6.0\Zadacha4.pdb
+C:\Users\Plamena\source\repos\Zadachi\Zadacha4\obj\Debug\net6.0\Zadacha4.genruntimeconfig.cache
+C:\Users\Plamena\source\repos\Zadachi\Zadacha4\obj\Debug\net6.0\ref\Zadacha4.dll
