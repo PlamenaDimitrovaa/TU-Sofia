@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Plamena\\source\\repos\\Zadachi\\Zadacha2\\Zadacha2.csproj",
+      "projectUniqueName": "C:\\Users\\Plamena\\Desktop\\TU-Sofia\\SAA\\Zadachi\\Zadacha2\\Zadacha2.csproj",
       "projectName": "Zadacha2",
-      "projectPath": "C:\\Users\\Plamena\\source\\repos\\Zadachi\\Zadacha2\\Zadacha2.csproj",
+      "projectPath": "C:\\Users\\Plamena\\Desktop\\TU-Sofia\\SAA\\Zadachi\\Zadacha2\\Zadacha2.csproj",
       "packagesPath": "C:\\Users\\Plamena\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Plamena\\source\\repos\\Zadachi\\Zadacha2\\obj\\",
+      "outputPath": "C:\\Users\\Plamena\\Desktop\\TU-Sofia\\SAA\\Zadachi\\Zadacha2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

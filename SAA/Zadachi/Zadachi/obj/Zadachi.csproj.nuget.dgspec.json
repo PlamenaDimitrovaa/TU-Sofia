@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Plamena\\source\\repos\\Zadachi\\Zadachi\\Zadachi.csproj": {}
+    "C:\\Users\\Plamena\\Desktop\\TU-Sofia\\SAA\\Zadachi\\Zadachi\\Zadachi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Plamena\\source\\repos\\Zadachi\\Zadachi\\Zadachi.csproj": {
+    "C:\\Users\\Plamena\\Desktop\\TU-Sofia\\SAA\\Zadachi\\Zadachi\\Zadachi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Plamena\\source\\repos\\Zadachi\\Zadachi\\Zadachi.csproj",
+        "projectUniqueName": "C:\\Users\\Plamena\\Desktop\\TU-Sofia\\SAA\\Zadachi\\Zadachi\\Zadachi.csproj",
         "projectName": "Zadachi",
-        "projectPath": "C:\\Users\\Plamena\\source\\repos\\Zadachi\\Zadachi\\Zadachi.csproj",
+        "projectPath": "C:\\Users\\Plamena\\Desktop\\TU-Sofia\\SAA\\Zadachi\\Zadachi\\Zadachi.csproj",
         "packagesPath": "C:\\Users\\Plamena\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Plamena\\source\\repos\\Zadachi\\Zadachi\\obj\\",
+        "outputPath": "C:\\Users\\Plamena\\Desktop\\TU-Sofia\\SAA\\Zadachi\\Zadachi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
