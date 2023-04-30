@@ -99,7 +99,7 @@ CREATE TABLE `Tables`
 	Id INT PRIMARY KEY AUTO_INCREMENT,
     NumberOfPlaces INT NOT NULL,
     TableNumber INT NOT NULL,
-    ReservationId INT NOT NULL,
+    ReservationId INT NULL,
     Smoker BOOL NOT NULL,
     NumberOfChairs INT NOT NULL,
     TableState ENUM('Free', 'Busy', 'Reserved'),
@@ -113,8 +113,8 @@ CREATE TABLE Orders
     ReservationId INT NOT NULL,
     PlateId INT NULL,
     DrinkId INT NULL,
-    DrinkQuantity INT NOT NULL,
-    PlateQuantity INT NOT NULL,
+    DrinkQuantity INT NULL,
+    PlateQuantity INT NULL,
     `Status` ENUM('Completed', 'Cancelled') NOT NULL,
     WaiterId INT NOT NULL,
     
@@ -235,9 +235,10 @@ SELECT * FROM Reservations
 WHERE ReservationStatus = 'Confirmed';
 
 #3 агрегатна функция и GROUP BY
-SELECT OrderPaymentId, AVG(TotalAmount) AS AverageOfAllPaymentPerOrder
-FROM OrderPayments
-GROUP BY OrderPaymentId;
+SELECT e.Id, AVG(sp.SalaryAmount) AS AverageOfAllPayment
+FROM Employees AS e 
+JOIN SalaryPayments AS sp ON sp.EmployeeId = e.Id
+GROUP BY e.Id;
 
 #4 INNER JOIN
 SELECT restaurant.Name, CONCAT(e.FirstName, ' ', e.LastName) AS ManagerName, res.Id AS ReservationId, 
@@ -273,26 +274,97 @@ ORDER BY EmployeeName
 LIMIT 3;
 
 #8 TRIGGER
+DROP TABLE IF EXISTS SalaryPaymentsLog;
+CREATE TABLE SalaryPaymentsLog(
+	Id INT AUTO_INCREMENT PRIMARY KEY,
+	Operation ENUM('INSERT','UPDATE','DELETE') NOT NULL,
+	OldEmployeeId INT,
+	NewEmployeeId INT,
+	OldMonth INT,
+	NewMonth INT,
+	OldYear INT,
+	NewYear INT,
+	OldSalaryAmount DECIMAL,
+	NewSalaryAmount DECIMAL,
+	OldDateOfPayment DATETIME,
+	NewDateOfPayment DATETIME,
+	DateOfLog DATETIME
+);
+
+DROP TRIGGER IF EXISTS After_SalaryPayment_Update ;
 DELIMITER |
-CREATE TRIGGER update_employee_salary AFTER INSERT ON SalaryPayments
+CREATE TRIGGER After_SalaryPayment_Update AFTER UPDATE ON SalaryPayments
 FOR EACH ROW
 BEGIN
-    UPDATE Employees
-    SET Salary = (
-        SELECT SUM(SalaryAmount)
-        FROM SalaryPayments
-        WHERE EmployeeId = NEW.EmployeeId
-        AND `Month` = MONTH(NEW.DateOfPayment)
-        AND `Year` = YEAR(NEW.DateOfPayment)
-    )
-    WHERE Id = NEW.EmployeeId;
+INSERT INTO SalaryPaymentsLog(operation, OldEmployeeId, NewEmployeeId, OldMonth,
+NewMonth, OldYear, NewYear, OldSalaryAmount, NewSalaryAmount, OldDateOfPayment, 
+NewDateOfPayment, dateOfLog)
+VALUES ('UPDATE', 
+OLD.EmployeeId, 
+CASE NEW.EmployeeId WHEN OLD.EmployeeId THEN NULL ELSE NEW.EmployeeId END,
+OLD.`Month`, 
+CASE NEW.`Month` WHEN OLD.`Month` THEN NULL ELSE NEW.`Month` END,
+OLD.`Year`, 
+CASE NEW.`Year` WHEN OLD.`Year` THEN NULL ELSE NEW.`Year` END,
+OLD.SalaryAmount, 
+CASE NEW.SalaryAmount WHEN OLD.SalaryAmount THEN NULL ELSE NEW.SalaryAmount END,
+OLD.DateOfPayment, 
+CASE NEW.DateOfPayment WHEN OLD.DateOfPayment THEN NULL ELSE NEW.DateOfPayment END,
+NOW());
 END;
 |
 DELIMITER ;
 
-INSERT INTO SalaryPayments (EmployeeId, Month, Year, SalaryAmount, DateOfPayment)
-VALUES
-(2, 3, 2022, 1000, NOW());
+UPDATE SalaryPayments SET `Month` = 4 
+WHERE Id = 1;
+
+SELECT * FROM SalaryPaymentsLog;
 
 #9 PROCEDURE WITH CURSOS
+
+DROP PROCEDURE IF EXISTS UpdateOrderPayments;
+DELIMITER //
+CREATE PROCEDURE UpdateOrderPayments()
+BEGIN
+	DECLARE done INT DEFAULT FALSE;
+	DECLARE orderId INT;
+	DECLARE orderPaymentMethod ENUM('Cash', 'Credit Card', 'Debit Card', 'Online Payment');
+	DECLARE orderPaymentDate DATETIME;
+	DECLARE totalAmount DECIMAL(18, 2);
+
+	DECLARE curOrders CURSOR FOR SELECT Id FROM Orders;
 	
+	DECLARE CONTINUE HANDLER FOR NOT FOUND SET done = TRUE;
+	OPEN curOrders;
+	
+	orderLoop: LOOP
+		FETCH curOrders INTO orderId;
+		IF done THEN
+			LEAVE orderLoop;
+		END IF;
+		
+		SET orderPaymentMethod = 
+        CASE 
+			WHEN RAND() < 0.5 THEN 'Cash' 
+            ELSE 'Credit Card' 
+		END;
+		SET orderPaymentDate = NOW(); -- set payment date to current time
+        
+		SET totalAmount = (SELECT IFNULL(SUM(PlateQuantity * p.Price), 0) 
+							+ IFNULL(SUM(DrinkQuantity * d.Price), 0)
+							FROM Orders o
+							LEFT JOIN MenuForPlates p ON o.PlateId = p.PlateId
+							LEFT JOIN MenuForDrinks d ON o.DrinkId = d.DrinkId
+							WHERE o.Id = orderId); -- calculate total amount for the order
+		
+		INSERT INTO OrderPayments (OrderId, OrderPaymentMethod, OrderPaymentDate, TotalAmount)
+		VALUES (orderId, orderPaymentMethod, orderPaymentDate, totalAmount);
+	END LOOP;
+	
+	CLOSE curOrders;	
+END //
+DELIMITER ;
+
+CALL UpdateOrderPayments();
+
+SELECT * FROM OrderPayments;
