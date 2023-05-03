@@ -201,14 +201,16 @@ INSERT INTO Reservations(RestaurantId, ClientId, GuestsCount, DurationInHours, R
 (1, 1, 2, 1, '2023-05-02 12:30:00', 1, 10.00, 'Cancelled'),
 (2, 3, 6, 3, '2023-05-05 18:00:00', 2, 40.00, 'Confirmed'),
 (3, 4, 3, 1, '2023-05-07 20:00:00', 1, 15.00, 'Confirmed'),
-(2, 5, 2, 2, '2023-05-08 13:00:00', 1, 10.00, 'Confirmed');
+(2, 5, 2, 2, '2023-05-08 13:00:00', 1, 10.00, 'Confirmed'),
+(2, 1, 2, 1, '2023-05-03 10:00:00', 1, 10.00, 'Cancelled');
 
 INSERT INTO `Tables`(NumberOfPlaces, TableNumber, ReservationId, Smoker, NumberOfChairs, TableState) VALUES
 (2, 1, 1, 0, 2, 'Free'),
 (4, 2, 2, 0, 4, 'Reserved'),
 (6, 1, 3, 0, 6, 'Free'),
 (2, 2, 4, 1, 2, 'Reserved'),
-(4, 1, 5, 0, 4, 'Free');
+(4, 1, 5, 0, 4, 'Free'),
+(10, 3, NULL, 0, 10, 'Free');
     
 INSERT INTO Orders(ReservationId, PlateId, DrinkId, PlateQuantity, DrinkQuantity, `Status`, WaiterId) VALUES
 (1, 1, NULL, 2, 0, 'Completed', 3),
@@ -256,7 +258,7 @@ LEFT OUTER JOIN Employees AS e ON e.Id = o.WaiterId
 LEFT OUTER JOIN MenuForPlates AS p ON p.PlateId = o.PlateId
 LEFT OUTER JOIN MenuForDrinks AS d ON d.DrinkId = o.DrinkId;
 
-#6 вложен SELECT ??
+#6 вложен SELECT 
 SELECT CONCAT(e.FirstName, ' ', e.LastName) AS EmployeeName, t.TableNumber, t.NumberOfPlaces
 FROM Employees AS e
 JOIN `Tables` AS t ON t.Id IN (
@@ -273,7 +275,32 @@ GROUP BY sp.Month, e.Id
 ORDER BY EmployeeName
 LIMIT 3;
 
+#8
+DROP TRIGGER IF EXISTS CheckTableAvailability;
+DELIMITER |
+CREATE TRIGGER CheckTableAvailability BEFORE INSERT ON Reservations
+FOR EACH ROW
+BEGIN
+    DECLARE available_tables INT;
+    SET available_tables = (SELECT COUNT(*) FROM `Tables` AS t
+							JOIN Reservations AS r ON r.Id = t.ReservationId
+                            WHERE TableState = 'Free' AND NumberOfPlaces >= NEW.GuestsCount
+                            AND r.ReservationTime BETWEEN NEW.ReservationTime
+                            AND DATE_ADD(NEW.ReservationTime, INTERVAL NEW.DurationInHours HOUR));
+
+    IF available_tables < NEW.TablesCount THEN
+        SIGNAL SQLSTATE '45000' 
+            SET MESSAGE_TEXT = 'There are not enough free tables for this reservation!';
+    END IF;
+END |
+DELIMITER ;
+
+INSERT INTO Reservations (RestaurantId, ClientId, GuestsCount, DurationInHours, ReservationTime, TablesCount, EarnestAmount, ReservationStatus)
+VALUES (2, 1, 2, 1, '2023-05-03 10:00:00', 1, 10.00, 'Cancelled');
+
 #8 TRIGGER
+#Създаваме тригер, който записва всички промени,
+#правени по таблицата SalaryPayments.
 DROP TABLE IF EXISTS SalaryPaymentsLog;
 CREATE TABLE SalaryPaymentsLog(
 	Id INT AUTO_INCREMENT PRIMARY KEY,
@@ -321,19 +348,34 @@ WHERE Id = 1;
 SELECT * FROM SalaryPaymentsLog;
 
 #9 PROCEDURE WITH CURSOS
+#Тази процедура създава курсор, който избира всички поръчки и за всяка поръчка вмъква 
+#запис в таблицата OrderPayments с информация за начина на плащане, датата на плащане 
+#и общата сума за поръчката.
+#Начинът на плащане се избирa между 'Cash' и 'Credit Card'.
+#Общата сума се изчислява като сбор на цените на всички ястия и напитки в поръчката. 
+
 DROP PROCEDURE IF EXISTS UpdateOrderPayments;
 DELIMITER //
-CREATE PROCEDURE UpdateOrderPayments()
+CREATE PROCEDURE UpdateOrderPayments(IN PaymentMethod VARCHAR(30))
 BEGIN
 	DECLARE done INT DEFAULT FALSE;
 	DECLARE orderId INT;
-	DECLARE orderPaymentMethod ENUM('Cash', 'Credit Card', 'Debit Card', 'Online Payment');
 	DECLARE orderPaymentDate DATETIME;
 	DECLARE totalAmount DECIMAL(18, 2);
 
 	DECLARE curOrders CURSOR FOR SELECT Id FROM Orders;
-	
 	DECLARE CONTINUE HANDLER FOR NOT FOUND SET done = TRUE;
+    
+    IF((SELECT id FROM Orders WHERE Id = orderId) IS NULL) THEN
+     SIGNAL SQLSTATE '45001'
+			SET MESSAGE_TEXT = "Invalid order id";
+	END IF;
+    
+	IF(PaymentMethod != 'Cash' AND PaymentMethod != 'Credit card') THEN
+		 SIGNAL SQLSTATE '45000'
+			SET MESSAGE_TEXT = "Invalid payment method";
+	END IF;
+
 	OPEN curOrders;
 	
 	orderLoop: LOOP
@@ -342,28 +384,86 @@ BEGIN
 			LEAVE orderLoop;
 		END IF;
 		
-		SET orderPaymentMethod = 
-        CASE 
-			WHEN RAND() < 0.5 THEN 'Cash' 
-            ELSE 'Credit Card' 
-		END;
-		SET orderPaymentDate = NOW(); -- set payment date to current time
+		SET orderPaymentDate = NOW();
         
 		SET totalAmount = (SELECT IFNULL(SUM(PlateQuantity * p.Price), 0) 
 							+ IFNULL(SUM(DrinkQuantity * d.Price), 0)
 							FROM Orders o
 							LEFT JOIN MenuForPlates p ON o.PlateId = p.PlateId
 							LEFT JOIN MenuForDrinks d ON o.DrinkId = d.DrinkId
-							WHERE o.Id = orderId); -- calculate total amount for the order
+							WHERE o.Id = orderId);
 		
 		INSERT INTO OrderPayments (OrderId, OrderPaymentMethod, OrderPaymentDate, TotalAmount)
-		VALUES (orderId, orderPaymentMethod, orderPaymentDate, totalAmount);
+		VALUES (orderId, PaymentMethod, orderPaymentDate, totalAmount);
 	END LOOP;
 	
 	CLOSE curOrders;	
 END //
 DELIMITER ;
+CALL UpdateOrderPayments('Credit card');
 
-CALL UpdateOrderPayments();
 
-SELECT * FROM OrderPayments;
+
+DROP PROCEDURE IF EXISTS CalculateClientBalances;
+DELIMITER //
+CREATE PROCEDURE CalculateClientBalances()
+BEGIN
+    DECLARE done INT DEFAULT FALSE;
+    DECLARE clientId INT;
+    DECLARE reservationId INT;
+    DECLARE totalAmount DECIMAL(18, 2);
+
+    DECLARE clientCursor CURSOR FOR 
+        SELECT DISTINCT c.Id
+        FROM Clients c
+        INNER JOIN Reservations r ON c.Id = r.ClientId;
+
+    DECLARE reservationCursor CURSOR FOR
+        SELECT r.Id, SUM(o.PlateQuantity * p.Price + o.DrinkQuantity * d.Price) AS Amount
+        FROM Reservations r
+        INNER JOIN `Tables` t ON r.Id = t.ReservationId
+        INNER JOIN Clients c ON r.ClientId = c.Id
+        LEFT JOIN Orders o ON r.Id = o.ReservationId
+        LEFT JOIN MenuForPlates p ON o.PlateId = p.PlateId
+        LEFT JOIN MenuForDrinks d ON o.DrinkId = d.DrinkId
+        WHERE c.Id = clientId
+        GROUP BY r.Id;
+
+    DECLARE CONTINUE HANDLER FOR NOT FOUND SET done = TRUE;
+
+    OPEN clientCursor;
+
+    clientLoop: LOOP
+        FETCH clientCursor INTO clientId;
+
+        IF done THEN
+            LEAVE clientLoop;
+        END IF;
+
+        SET totalAmount = 0;
+
+        OPEN reservationCursor;
+
+        reservationLoop: LOOP
+            FETCH reservationCursor INTO reservationId, totalAmount;
+
+            IF done THEN
+                LEAVE reservationLoop;
+            END IF;
+            
+		 SELECT Balance INTO @clientBalance FROM Clients WHERE Id = clientId;
+					
+					IF @clientBalance >= totalAmount THEN
+						UPDATE Clients SET Balance = Balance - totalAmount WHERE Id = clientId;
+					END IF;
+        END LOOP;
+
+        CLOSE reservationCursor;
+
+    END LOOP;
+
+    CLOSE clientCursor;
+END //
+DELIMITER ;
+
+CALL CalculateClientBalances();
