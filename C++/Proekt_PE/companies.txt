@@ -1,0 +1,7 @@
+Company ID: 3
+Name: Name
+
+Company Type: EOOD
+
+VAT Registered: 1
+
