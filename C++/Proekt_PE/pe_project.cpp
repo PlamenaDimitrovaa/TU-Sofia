@@ -467,10 +467,10 @@ int main() {
                 readDataFromFile("projects.txt");
                 break;
             case 0:
-                std::cout << "Exiting program.\n";
+                cout << "Exiting program.\n";
                 break;
             default:
-                std::cout << "Invalid choice. Please try again.\n";
+                cout << "Invalid choice. Please try again.\n";
                 break;
         }
 
