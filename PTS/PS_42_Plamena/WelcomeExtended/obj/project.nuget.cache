@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "1tT+EL56JE6QaVAQNgUhJoDaW9e3KLsgECyIkY87Y4I4KS6V5eUNTX+dvE0UORGQvR2YbXyZYaou7hs9nedhyA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Plamena\\Desktop\\TU-Sofia\\PTS\\PS_42_Plamena\\WelcomeExtended\\WelcomeExtended.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Plamena\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+    "C:\\Users\\Plamena\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\Plamena\\.nuget\\packages\\microsoft.extensions.logging\\8.0.0\\microsoft.extensions.logging.8.0.0.nupkg.sha512",
+    "C:\\Users\\Plamena\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\Plamena\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
+    "C:\\Users\\Plamena\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

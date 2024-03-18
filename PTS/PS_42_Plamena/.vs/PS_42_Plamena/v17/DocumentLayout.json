@@ -1,0 +1,205 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Plamena\\Desktop\\TU-Sofia\\PTS\\PS_42_Plamena\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C03A9E30-0115-4A5A-9066-3D5C19B59DF2}|WelcomeExtended\\WelcomeExtended.csproj|c:\\users\\plamena\\desktop\\tu-sofia\\pts\\ps_42_plamena\\welcomeextended\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C03A9E30-0115-4A5A-9066-3D5C19B59DF2}|WelcomeExtended\\WelcomeExtended.csproj|solutionrelative:welcomeextended\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{801CE20E-D8B1-405A-B1EB-E55F1894A5BC}|Welcome\\Welcome.csproj|c:\\users\\plamena\\desktop\\tu-sofia\\pts\\ps_42_plamena\\welcome\\view\\userview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{801CE20E-D8B1-405A-B1EB-E55F1894A5BC}|Welcome\\Welcome.csproj|solutionrelative:welcome\\view\\userview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{801CE20E-D8B1-405A-B1EB-E55F1894A5BC}|Welcome\\Welcome.csproj|c:\\users\\plamena\\desktop\\tu-sofia\\pts\\ps_42_plamena\\welcome\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{801CE20E-D8B1-405A-B1EB-E55F1894A5BC}|Welcome\\Welcome.csproj|solutionrelative:welcome\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{801CE20E-D8B1-405A-B1EB-E55F1894A5BC}|Welcome\\Welcome.csproj|c:\\users\\plamena\\desktop\\tu-sofia\\pts\\ps_42_plamena\\welcome\\viewmodel\\userviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{801CE20E-D8B1-405A-B1EB-E55F1894A5BC}|Welcome\\Welcome.csproj|solutionrelative:welcome\\viewmodel\\userviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C03A9E30-0115-4A5A-9066-3D5C19B59DF2}|WelcomeExtended\\WelcomeExtended.csproj|c:\\users\\plamena\\desktop\\tu-sofia\\pts\\ps_42_plamena\\welcomeextended\\others\\actiononerror.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C03A9E30-0115-4A5A-9066-3D5C19B59DF2}|WelcomeExtended\\WelcomeExtended.csproj|solutionrelative:welcomeextended\\others\\actiononerror.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C03A9E30-0115-4A5A-9066-3D5C19B59DF2}|WelcomeExtended\\WelcomeExtended.csproj|c:\\users\\plamena\\desktop\\tu-sofia\\pts\\ps_42_plamena\\welcomeextended\\others\\delegates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C03A9E30-0115-4A5A-9066-3D5C19B59DF2}|WelcomeExtended\\WelcomeExtended.csproj|solutionrelative:welcomeextended\\others\\delegates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C03A9E30-0115-4A5A-9066-3D5C19B59DF2}|WelcomeExtended\\WelcomeExtended.csproj|c:\\users\\plamena\\desktop\\tu-sofia\\pts\\ps_42_plamena\\welcomeextended\\helpers\\loggerhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C03A9E30-0115-4A5A-9066-3D5C19B59DF2}|WelcomeExtended\\WelcomeExtended.csproj|solutionrelative:welcomeextended\\helpers\\loggerhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C03A9E30-0115-4A5A-9066-3D5C19B59DF2}|WelcomeExtended\\WelcomeExtended.csproj|c:\\users\\plamena\\desktop\\tu-sofia\\pts\\ps_42_plamena\\welcomeextended\\loggers\\loggerprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C03A9E30-0115-4A5A-9066-3D5C19B59DF2}|WelcomeExtended\\WelcomeExtended.csproj|solutionrelative:welcomeextended\\loggers\\loggerprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C03A9E30-0115-4A5A-9066-3D5C19B59DF2}|WelcomeExtended\\WelcomeExtended.csproj|c:\\users\\plamena\\desktop\\tu-sofia\\pts\\ps_42_plamena\\welcomeextended\\loggers\\hashlogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C03A9E30-0115-4A5A-9066-3D5C19B59DF2}|WelcomeExtended\\WelcomeExtended.csproj|solutionrelative:welcomeextended\\loggers\\hashlogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{801CE20E-D8B1-405A-B1EB-E55F1894A5BC}|Welcome\\Welcome.csproj|c:\\users\\plamena\\desktop\\tu-sofia\\pts\\ps_42_plamena\\welcome\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{801CE20E-D8B1-405A-B1EB-E55F1894A5BC}|Welcome\\Welcome.csproj|solutionrelative:welcome\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{801CE20E-D8B1-405A-B1EB-E55F1894A5BC}|Welcome\\Welcome.csproj|c:\\users\\plamena\\desktop\\tu-sofia\\pts\\ps_42_plamena\\welcome\\others\\userrolesenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{801CE20E-D8B1-405A-B1EB-E55F1894A5BC}|Welcome\\Welcome.csproj|solutionrelative:welcome\\others\\userrolesenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ActionOnError.cs",
+              "DocumentMoniker": "C:\\Users\\Plamena\\Desktop\\TU-Sofia\\PTS\\PS_42_Plamena\\WelcomeExtended\\Others\\ActionOnError.cs",
+              "RelativeDocumentMoniker": "WelcomeExtended\\Others\\ActionOnError.cs",
+              "ToolTip": "C:\\Users\\Plamena\\Desktop\\TU-Sofia\\PTS\\PS_42_Plamena\\WelcomeExtended\\Others\\ActionOnError.cs",
+              "RelativeToolTip": "WelcomeExtended\\Others\\ActionOnError.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T13:15:25.033Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Delegates.cs",
+              "DocumentMoniker": "C:\\Users\\Plamena\\Desktop\\TU-Sofia\\PTS\\PS_42_Plamena\\WelcomeExtended\\Others\\Delegates.cs",
+              "RelativeDocumentMoniker": "WelcomeExtended\\Others\\Delegates.cs",
+              "ToolTip": "C:\\Users\\Plamena\\Desktop\\TU-Sofia\\PTS\\PS_42_Plamena\\WelcomeExtended\\Others\\Delegates.cs",
+              "RelativeToolTip": "WelcomeExtended\\Others\\Delegates.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T13:12:44.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Plamena\\Desktop\\TU-Sofia\\PTS\\PS_42_Plamena\\WelcomeExtended\\Program.cs",
+              "RelativeDocumentMoniker": "WelcomeExtended\\Program.cs",
+              "ToolTip": "C:\\Users\\Plamena\\Desktop\\TU-Sofia\\PTS\\PS_42_Plamena\\WelcomeExtended\\Program.cs",
+              "RelativeToolTip": "WelcomeExtended\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T12:56:52.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Plamena\\Desktop\\TU-Sofia\\PTS\\PS_42_Plamena\\Welcome\\Model\\User.cs",
+              "RelativeDocumentMoniker": "Welcome\\Model\\User.cs",
+              "ToolTip": "C:\\Users\\Plamena\\Desktop\\TU-Sofia\\PTS\\PS_42_Plamena\\Welcome\\Model\\User.cs",
+              "RelativeToolTip": "Welcome\\Model\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T18:43:56.506Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserView.cs",
+              "DocumentMoniker": "C:\\Users\\Plamena\\Desktop\\TU-Sofia\\PTS\\PS_42_Plamena\\Welcome\\View\\UserView.cs",
+              "RelativeDocumentMoniker": "Welcome\\View\\UserView.cs",
+              "ToolTip": "C:\\Users\\Plamena\\Desktop\\TU-Sofia\\PTS\\PS_42_Plamena\\Welcome\\View\\UserView.cs",
+              "RelativeToolTip": "Welcome\\View\\UserView.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T19:05:30.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Plamena\\Desktop\\TU-Sofia\\PTS\\PS_42_Plamena\\Welcome\\ViewModel\\UserViewModel.cs",
+              "RelativeDocumentMoniker": "Welcome\\ViewModel\\UserViewModel.cs",
+              "ToolTip": "C:\\Users\\Plamena\\Desktop\\TU-Sofia\\PTS\\PS_42_Plamena\\Welcome\\ViewModel\\UserViewModel.cs",
+              "RelativeToolTip": "Welcome\\ViewModel\\UserViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T18:47:38.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoggerHelper.cs",
+              "DocumentMoniker": "C:\\Users\\Plamena\\Desktop\\TU-Sofia\\PTS\\PS_42_Plamena\\WelcomeExtended\\Helpers\\LoggerHelper.cs",
+              "RelativeDocumentMoniker": "WelcomeExtended\\Helpers\\LoggerHelper.cs",
+              "ToolTip": "C:\\Users\\Plamena\\Desktop\\TU-Sofia\\PTS\\PS_42_Plamena\\WelcomeExtended\\Helpers\\LoggerHelper.cs",
+              "RelativeToolTip": "WelcomeExtended\\Helpers\\LoggerHelper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T13:10:35.823Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LoggerProvider.cs",
+              "DocumentMoniker": "C:\\Users\\Plamena\\Desktop\\TU-Sofia\\PTS\\PS_42_Plamena\\WelcomeExtended\\Loggers\\LoggerProvider.cs",
+              "RelativeDocumentMoniker": "WelcomeExtended\\Loggers\\LoggerProvider.cs",
+              "ToolTip": "C:\\Users\\Plamena\\Desktop\\TU-Sofia\\PTS\\PS_42_Plamena\\WelcomeExtended\\Loggers\\LoggerProvider.cs",
+              "RelativeToolTip": "WelcomeExtended\\Loggers\\LoggerProvider.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T13:09:20.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HashLogger.cs",
+              "DocumentMoniker": "C:\\Users\\Plamena\\Desktop\\TU-Sofia\\PTS\\PS_42_Plamena\\WelcomeExtended\\Loggers\\HashLogger.cs",
+              "RelativeDocumentMoniker": "WelcomeExtended\\Loggers\\HashLogger.cs",
+              "ToolTip": "C:\\Users\\Plamena\\Desktop\\TU-Sofia\\PTS\\PS_42_Plamena\\WelcomeExtended\\Loggers\\HashLogger.cs",
+              "RelativeToolTip": "WelcomeExtended\\Loggers\\HashLogger.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAQwCkAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T12:57:46.173Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserRolesEnum.cs",
+              "DocumentMoniker": "C:\\Users\\Plamena\\Desktop\\TU-Sofia\\PTS\\PS_42_Plamena\\Welcome\\Others\\UserRolesEnum.cs",
+              "RelativeDocumentMoniker": "Welcome\\Others\\UserRolesEnum.cs",
+              "ToolTip": "C:\\Users\\Plamena\\Desktop\\TU-Sofia\\PTS\\PS_42_Plamena\\Welcome\\Others\\UserRolesEnum.cs",
+              "RelativeToolTip": "Welcome\\Others\\UserRolesEnum.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T18:42:18.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Plamena\\Desktop\\TU-Sofia\\PTS\\PS_42_Plamena\\Welcome\\Program.cs",
+              "RelativeDocumentMoniker": "Welcome\\Program.cs",
+              "ToolTip": "C:\\Users\\Plamena\\Desktop\\TU-Sofia\\PTS\\PS_42_Plamena\\Welcome\\Program.cs",
+              "RelativeToolTip": "Welcome\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T18:38:54.477Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
