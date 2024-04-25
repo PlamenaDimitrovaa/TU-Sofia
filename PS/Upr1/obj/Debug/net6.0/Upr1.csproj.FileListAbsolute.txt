@@ -1,0 +1,14 @@
+C:\Users\gogo\Desktop\TU 2024 SEM 6\ПС - Програмни Среди\Освобождаване\Решения\PS\Upr1\bin\Debug\net6.0\Upr1.exe
+C:\Users\gogo\Desktop\TU 2024 SEM 6\ПС - Програмни Среди\Освобождаване\Решения\PS\Upr1\bin\Debug\net6.0\Upr1.deps.json
+C:\Users\gogo\Desktop\TU 2024 SEM 6\ПС - Програмни Среди\Освобождаване\Решения\PS\Upr1\bin\Debug\net6.0\Upr1.runtimeconfig.json
+C:\Users\gogo\Desktop\TU 2024 SEM 6\ПС - Програмни Среди\Освобождаване\Решения\PS\Upr1\bin\Debug\net6.0\Upr1.dll
+C:\Users\gogo\Desktop\TU 2024 SEM 6\ПС - Програмни Среди\Освобождаване\Решения\PS\Upr1\bin\Debug\net6.0\Upr1.pdb
+C:\Users\gogo\Desktop\TU 2024 SEM 6\ПС - Програмни Среди\Освобождаване\Решения\PS\Upr1\obj\Debug\net6.0\Upr1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gogo\Desktop\TU 2024 SEM 6\ПС - Програмни Среди\Освобождаване\Решения\PS\Upr1\obj\Debug\net6.0\Upr1.AssemblyInfoInputs.cache
+C:\Users\gogo\Desktop\TU 2024 SEM 6\ПС - Програмни Среди\Освобождаване\Решения\PS\Upr1\obj\Debug\net6.0\Upr1.AssemblyInfo.cs
+C:\Users\gogo\Desktop\TU 2024 SEM 6\ПС - Програмни Среди\Освобождаване\Решения\PS\Upr1\obj\Debug\net6.0\Upr1.csproj.CoreCompileInputs.cache
+C:\Users\gogo\Desktop\TU 2024 SEM 6\ПС - Програмни Среди\Освобождаване\Решения\PS\Upr1\obj\Debug\net6.0\Upr1.dll
+C:\Users\gogo\Desktop\TU 2024 SEM 6\ПС - Програмни Среди\Освобождаване\Решения\PS\Upr1\obj\Debug\net6.0\refint\Upr1.dll
+C:\Users\gogo\Desktop\TU 2024 SEM 6\ПС - Програмни Среди\Освобождаване\Решения\PS\Upr1\obj\Debug\net6.0\Upr1.pdb
+C:\Users\gogo\Desktop\TU 2024 SEM 6\ПС - Програмни Среди\Освобождаване\Решения\PS\Upr1\obj\Debug\net6.0\Upr1.genruntimeconfig.cache
+C:\Users\gogo\Desktop\TU 2024 SEM 6\ПС - Програмни Среди\Освобождаване\Решения\PS\Upr1\obj\Debug\net6.0\ref\Upr1.dll

@@ -1,0 +1,43 @@
+﻿<Window x:Class="Upr6.View.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Upr6.View"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+
+    <Grid>
+        <StackPanel>
+            <Menu IsMainMenu="True">
+                <MenuItem Header="_File">
+                    <MenuItem Header="Reset Database" Command="{Binding ResetDatabaseCommand}"/>
+                </MenuItem>
+                <MenuItem Header="_Users">
+                    <MenuItem Header="All" Command="{Binding OpenUsersWindowCommand}"/>
+                    <MenuItem Header="Add" Command="{Binding OpenUserAddWindowCommand}"/>
+                </MenuItem>
+                <MenuItem Header="Logs" Command="{Binding OpenLogsWindowCommand}"/>
+            </Menu>
+            <Label Content="{Binding SelectedUser}"></Label>
+            <DataGrid ItemsSource="{Binding Users}"  
+                      SelectedItem="{Binding SelectedUser}"
+                      AutoGenerateColumns="False"
+                      CanUserAddRows="False"
+                      CanUserSortColumns="True"
+                      IsReadOnly="True">
+                <DataGrid.ContextMenu>
+                    <ContextMenu>
+                        <MenuItem Header="Remove" Command="{Binding RemoveUserCommand}" CommandParameter="{Binding .}"></MenuItem>
+                    </ContextMenu>
+                </DataGrid.ContextMenu>
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="#" Binding="{Binding Id}"/>
+                    <DataGridTextColumn Header="Name" Binding="{Binding Name}"/>
+                    <DataGridTextColumn Header="Role" Binding="{Binding Role}"/>
+                    <DataGridTextColumn Header="Created At" Binding="{Binding CreatedAt}"/>
+                </DataGrid.Columns>
+            </DataGrid>
+        </StackPanel>
+    </Grid>
+</Window>

@@ -1,0 +1,28 @@
+== Logger ==
+[Error] [hi]
+Потребителят не е намерен
+== Logger ==
+== Logger ==
+[Error] [hi]
+Потребителят не е намерен
+== Logger ==
+== Logger ==
+[Information] [hi]
+3 - Admin - ADMIN - 3/7/2024 1:45:44 AM
+== Logger ==
+== Logger ==
+[Error] [hi]
+Name cannot be empty!
+== Logger ==
+== Logger ==
+[Error] [hi]
+Password cannot be empty!
+== Logger ==
+== Logger ==
+[Error] [hi]
+Потребителят не е намерен
+== Logger ==
+== Logger ==
+[Information] [hi]
+0 - student - STUDENT - 3/8/2024 3:13:45 PM
+== Logger ==

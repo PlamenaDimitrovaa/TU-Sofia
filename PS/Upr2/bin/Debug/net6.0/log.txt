@@ -1,0 +1,16 @@
+== Logger ==
+[Error] [Hello File]
+Krai
+== Logger ==
+== Logger ==
+[Error] [Hello File]
+Krai
+== Logger ==
+== Logger ==
+[Error] [Hello File]
+Krai
+== Logger ==
+== Logger ==
+[Error] [Hello File]
+RANDOM ERROR
+== Logger ==
