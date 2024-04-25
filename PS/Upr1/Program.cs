@@ -9,7 +9,7 @@ class Program
     {
         User user = new User()
         {
-            Name = "Mitko",
+            Name = "Plamena",
             FakNum = "121221",
             Mail = "@gg.gg",
             Password = "123",

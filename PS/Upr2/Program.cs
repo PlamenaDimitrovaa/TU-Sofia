@@ -12,7 +12,7 @@ class Program
         {
             var user = new User
             {
-                Name = "John Smith",
+                Name = "Plamena",
                 Password = "password",
                 Role = UserRolesEnum.STUDENT
             };

@@ -25,6 +25,7 @@ class Program
                 FakNum = "121221",
                 Mail = "ff@ff"
             });
+
             context.SaveChanges();
             var users = context.Users.ToList();
             Console.WriteLine("Username:");

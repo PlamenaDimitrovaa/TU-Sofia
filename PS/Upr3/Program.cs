@@ -37,6 +37,7 @@ class Program
                 Password = "12345",
                 Role = UserRolesEnum.ADMIN
             };
+
             userData.AddUser(studentUser);
             userData.AddUser(u2);
             userData.AddUser(u3);
@@ -44,7 +45,7 @@ class Program
 
             Console.WriteLine("Name:");
             string name = Console.ReadLine();
-            Console.WriteLine("Pass:");
+            Console.WriteLine("Password:");
             string pass = Console.ReadLine();
 
             userData.ValidateCredentials(name, pass);
