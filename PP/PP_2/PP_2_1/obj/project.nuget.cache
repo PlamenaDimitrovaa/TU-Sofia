@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "fBoOE5nSh8+RvkTjHKkTw83g3E9LquhQGWcApINJfnPkWBSqENVHZ4b7jjK51PUO9pjrl6DcAi5mLyjy+BfLlQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Plamena\\source\\repos\\PP_2\\PP_2_1\\PP_2_1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Plamena\\.nuget\\packages\\htmlagilitypack\\1.11.71\\htmlagilitypack.1.11.71.nupkg.sha512"
+  ],
+  "logs": []
+}

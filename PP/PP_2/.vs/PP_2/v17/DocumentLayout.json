@@ -1,0 +1,98 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Plamena\\source\\repos\\PP_2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ACCF3771-F56B-47A5-8589-2E41BE1135B1}|PP_2_1\\PP_2_1.csproj|c:\\users\\plamena\\source\\repos\\pp_2\\pp_2_1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACCF3771-F56B-47A5-8589-2E41BE1135B1}|PP_2_1\\PP_2_1.csproj|solutionrelative:pp_2_1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACCF3771-F56B-47A5-8589-2E41BE1135B1}|PP_2_1\\PP_2_1.csproj|c:\\users\\plamena\\source\\repos\\pp_2\\pp_2_1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{ACCF3771-F56B-47A5-8589-2E41BE1135B1}|PP_2_1\\PP_2_1.csproj|solutionrelative:pp_2_1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCC77024-8DB6-4220-BEFC-C02C4B4DBD15}|PP_2\\PP_2.csproj|c:\\users\\plamena\\source\\repos\\pp_2\\pp_2\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCC77024-8DB6-4220-BEFC-C02C4B4DBD15}|PP_2\\PP_2.csproj|solutionrelative:pp_2\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCC77024-8DB6-4220-BEFC-C02C4B4DBD15}|PP_2\\PP_2.csproj|c:\\users\\plamena\\source\\repos\\pp_2\\pp_2\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FCC77024-8DB6-4220-BEFC-C02C4B4DBD15}|PP_2\\PP_2.csproj|solutionrelative:pp_2\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Plamena\\source\\repos\\PP_2\\PP_2_1\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "PP_2_1\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Plamena\\source\\repos\\PP_2\\PP_2_1\\MainWindow.xaml",
+              "RelativeToolTip": "PP_2_1\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-13T07:07:28.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Plamena\\source\\repos\\PP_2\\PP_2_1\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "PP_2_1\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Plamena\\source\\repos\\PP_2\\PP_2_1\\MainWindow.xaml.cs",
+              "RelativeToolTip": "PP_2_1\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD4AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T07:07:28.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Plamena\\source\\repos\\PP_2\\PP_2\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "PP_2\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Plamena\\source\\repos\\PP_2\\PP_2\\MainWindow.xaml",
+              "RelativeToolTip": "PP_2\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-13T06:42:40.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Plamena\\source\\repos\\PP_2\\PP_2\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "PP_2\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Plamena\\source\\repos\\PP_2\\PP_2\\MainWindow.xaml.cs",
+              "RelativeToolTip": "PP_2\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T06:42:38.195Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

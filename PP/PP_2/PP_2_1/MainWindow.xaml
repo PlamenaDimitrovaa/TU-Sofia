@@ -1,0 +1,15 @@
+﻿<Window x:Class="PP_2_1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PP_2_1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox Name="UrlTextBox" HorizontalAlignment="Center" VerticalAlignment="Top" Width="350" Margin="0,20,0,0"/>
+        <Button Name="FetchButton" Content="Fetch Images" HorizontalAlignment="Center" VerticalAlignment="Top" Width="120" Margin="0,70,0,0" Click="FetchButton_Click"/>
+        <Label Name="ResultLabel" HorizontalAlignment="Center" VerticalAlignment="Top" Width="350" Height="100" Margin="0,120,0,0" Content="Results will be shown here." FontSize="16"/>
+        <TextBlock Name="TimeLabel" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,20"/>
+    </Grid>
+</Window>
