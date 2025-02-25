@@ -1,0 +1,15 @@
+C:\Users\Plamena\Desktop\TU-Sofia\C#\C#_Upr1\C#_Upr1\bin\Debug\net8.0\C#_Upr1.exe
+C:\Users\Plamena\Desktop\TU-Sofia\C#\C#_Upr1\C#_Upr1\bin\Debug\net8.0\C#_Upr1.deps.json
+C:\Users\Plamena\Desktop\TU-Sofia\C#\C#_Upr1\C#_Upr1\bin\Debug\net8.0\C#_Upr1.runtimeconfig.json
+C:\Users\Plamena\Desktop\TU-Sofia\C#\C#_Upr1\C#_Upr1\bin\Debug\net8.0\C#_Upr1.dll
+C:\Users\Plamena\Desktop\TU-Sofia\C#\C#_Upr1\C#_Upr1\bin\Debug\net8.0\C#_Upr1.pdb
+C:\Users\Plamena\Desktop\TU-Sofia\C#\C#_Upr1\C#_Upr1\obj\Debug\net8.0\C#_Upr1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Plamena\Desktop\TU-Sofia\C#\C#_Upr1\C#_Upr1\obj\Debug\net8.0\C#_Upr1.AssemblyInfoInputs.cache
+C:\Users\Plamena\Desktop\TU-Sofia\C#\C#_Upr1\C#_Upr1\obj\Debug\net8.0\C#_Upr1.AssemblyInfo.cs
+C:\Users\Plamena\Desktop\TU-Sofia\C#\C#_Upr1\C#_Upr1\obj\Debug\net8.0\C#_Upr1.csproj.CoreCompileInputs.cache
+C:\Users\Plamena\Desktop\TU-Sofia\C#\C#_Upr1\C#_Upr1\obj\Debug\net8.0\C#_Upr1.sourcelink.json
+C:\Users\Plamena\Desktop\TU-Sofia\C#\C#_Upr1\C#_Upr1\obj\Debug\net8.0\C#_Upr1.dll
+C:\Users\Plamena\Desktop\TU-Sofia\C#\C#_Upr1\C#_Upr1\obj\Debug\net8.0\refint\C#_Upr1.dll
+C:\Users\Plamena\Desktop\TU-Sofia\C#\C#_Upr1\C#_Upr1\obj\Debug\net8.0\C#_Upr1.pdb
+C:\Users\Plamena\Desktop\TU-Sofia\C#\C#_Upr1\C#_Upr1\obj\Debug\net8.0\C#_Upr1.genruntimeconfig.cache
+C:\Users\Plamena\Desktop\TU-Sofia\C#\C#_Upr1\C#_Upr1\obj\Debug\net8.0\ref\C#_Upr1.dll
