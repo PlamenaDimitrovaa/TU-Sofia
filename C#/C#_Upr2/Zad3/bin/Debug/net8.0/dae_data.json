@@ -1,0 +1,134 @@
+[
+  {
+    "Tag": "effect",
+    "Connection": null
+  },
+  {
+    "Tag": "effect",
+    "Connection": null
+  },
+  {
+    "Tag": "effect",
+    "Connection": null
+  },
+  {
+    "Tag": "material",
+    "Connection": null
+  },
+  {
+    "Tag": "material",
+    "Connection": null
+  },
+  {
+    "Tag": "material",
+    "Connection": null
+  },
+  {
+    "Tag": "geometry",
+    "Connection": null
+  },
+  {
+    "Tag": "source",
+    "Connection": null
+  },
+  {
+    "Tag": "float_array",
+    "Connection": null
+  },
+  {
+    "Tag": "source",
+    "Connection": null
+  },
+  {
+    "Tag": "float_array",
+    "Connection": null
+  },
+  {
+    "Tag": "source",
+    "Connection": null
+  },
+  {
+    "Tag": "float_array",
+    "Connection": null
+  },
+  {
+    "Tag": "source",
+    "Connection": null
+  },
+  {
+    "Tag": "float_array",
+    "Connection": null
+  },
+  {
+    "Tag": "vertices",
+    "Connection": null
+  },
+  {
+    "Tag": "geometry",
+    "Connection": null
+  },
+  {
+    "Tag": "source",
+    "Connection": null
+  },
+  {
+    "Tag": "float_array",
+    "Connection": null
+  },
+  {
+    "Tag": "source",
+    "Connection": null
+  },
+  {
+    "Tag": "float_array",
+    "Connection": null
+  },
+  {
+    "Tag": "source",
+    "Connection": null
+  },
+  {
+    "Tag": "float_array",
+    "Connection": null
+  },
+  {
+    "Tag": "source",
+    "Connection": null
+  },
+  {
+    "Tag": "float_array",
+    "Connection": null
+  },
+  {
+    "Tag": "vertices",
+    "Connection": null
+  },
+  {
+    "Tag": "camera",
+    "Connection": null
+  },
+  {
+    "Tag": "light",
+    "Connection": null
+  },
+  {
+    "Tag": "visual_scene",
+    "Connection": null
+  },
+  {
+    "Tag": "node",
+    "Connection": null
+  },
+  {
+    "Tag": "node",
+    "Connection": null
+  },
+  {
+    "Tag": "node",
+    "Connection": null
+  },
+  {
+    "Tag": "node",
+    "Connection": null
+  }
+]

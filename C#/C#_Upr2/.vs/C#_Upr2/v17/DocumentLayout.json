@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\Plamena\\source\\repos\\C#_Upr2\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{616D809F-34DC-42C1-A02E-286047A6F7E6}|Zad3\\Zad3.csproj|c:\\users\\plamena\\source\\repos\\c#_upr2\\zad3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{616D809F-34DC-42C1-A02E-286047A6F7E6}|Zad3\\Zad3.csproj|solutionrelative:zad3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{616D809F-34DC-42C1-A02E-286047A6F7E6}|Zad3\\Zad3.csproj|c:\\users\\plamena\\source\\repos\\c#_upr2\\zad3\\tagdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{616D809F-34DC-42C1-A02E-286047A6F7E6}|Zad3\\Zad3.csproj|solutionrelative:zad3\\tagdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E9D733E9-D64B-4313-A0F2-195990F5A464}|Zad2\\Zad2.csproj|c:\\users\\plamena\\source\\repos\\c#_upr2\\zad2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E9D733E9-D64B-4313-A0F2-195990F5A464}|Zad2\\Zad2.csproj|solutionrelative:zad2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -43,6 +51,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "TagData.cs",
+              "DocumentMoniker": "C:\\Users\\Plamena\\source\\repos\\C#_Upr2\\Zad3\\TagData.cs",
+              "RelativeDocumentMoniker": "Zad3\\TagData.cs",
+              "ToolTip": "C:\\Users\\Plamena\\source\\repos\\C#_Upr2\\Zad3\\TagData.cs",
+              "RelativeToolTip": "Zad3\\TagData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T07:23:02.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Plamena\\source\\repos\\C#_Upr2\\Zad3\\Program.cs",
+              "RelativeDocumentMoniker": "Zad3\\Program.cs",
+              "ToolTip": "C:\\Users\\Plamena\\source\\repos\\C#_Upr2\\Zad3\\Program.cs",
+              "RelativeToolTip": "Zad3\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T07:20:03.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Contact.cs",
               "DocumentMoniker": "C:\\Users\\Plamena\\source\\repos\\C#_Upr2\\Zad2\\Contact.cs",
               "RelativeDocumentMoniker": "Zad2\\Contact.cs",
@@ -50,25 +84,24 @@
               "RelativeToolTip": "Zad2\\Contact.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T07:10:40.996Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T07:10:40.996Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Plamena\\source\\repos\\C#_Upr2\\Zad2\\Program.cs",
               "RelativeDocumentMoniker": "Zad2\\Program.cs",
               "ToolTip": "C:\\Users\\Plamena\\source\\repos\\C#_Upr2\\Zad2\\Program.cs",
               "RelativeToolTip": "Zad2\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA3AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-11T07:09:58.938Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "GeoPoint.cs",
               "DocumentMoniker": "C:\\Users\\Plamena\\source\\repos\\C#_Upr2\\C#_Upr2\\GeoPoint.cs",
               "RelativeDocumentMoniker": "C#_Upr2\\GeoPoint.cs",
@@ -76,12 +109,11 @@
               "RelativeToolTip": "C#_Upr2\\GeoPoint.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T07:06:05.717Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T07:06:05.717Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Plamena\\source\\repos\\C#_Upr2\\C#_Upr2\\Program.cs",
               "RelativeDocumentMoniker": "C#_Upr2\\Program.cs",
@@ -89,8 +121,7 @@
               "RelativeToolTip": "C#_Upr2\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T06:16:52.019Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T06:16:52.019Z"
             }
           ]
         }
