@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "QA9B3z50+Rdr/+vjwrgvZHBEPF+NLl3693pOZn6TYPLjAKnSgjN8ninM/1FZZKAUUN8eE5X3UmyCmgNbcr/Hag==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Plamena\\source\\repos\\C#_Upr2\\C#_Upr2\\C#_Upr2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Plamena\\.nuget\\packages\\sonaranalyzer.csharp\\10.7.0.110445\\sonaranalyzer.csharp.10.7.0.110445.nupkg.sha512"
+  ],
+  "logs": []
+}

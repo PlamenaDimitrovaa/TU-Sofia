@@ -1,0 +1,15 @@
+C:\Users\Plamena\source\repos\C#_Upr2\C#_Upr2\bin\Debug\net8.0\C#_Upr2.exe
+C:\Users\Plamena\source\repos\C#_Upr2\C#_Upr2\bin\Debug\net8.0\C#_Upr2.deps.json
+C:\Users\Plamena\source\repos\C#_Upr2\C#_Upr2\bin\Debug\net8.0\C#_Upr2.runtimeconfig.json
+C:\Users\Plamena\source\repos\C#_Upr2\C#_Upr2\bin\Debug\net8.0\C#_Upr2.dll
+C:\Users\Plamena\source\repos\C#_Upr2\C#_Upr2\bin\Debug\net8.0\C#_Upr2.pdb
+C:\Users\Plamena\source\repos\C#_Upr2\C#_Upr2\obj\Debug\net8.0\C#_Upr2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Plamena\source\repos\C#_Upr2\C#_Upr2\obj\Debug\net8.0\C#_Upr2.AssemblyInfoInputs.cache
+C:\Users\Plamena\source\repos\C#_Upr2\C#_Upr2\obj\Debug\net8.0\C#_Upr2.AssemblyInfo.cs
+C:\Users\Plamena\source\repos\C#_Upr2\C#_Upr2\obj\Debug\net8.0\C#_Upr2.csproj.CoreCompileInputs.cache
+C:\Users\Plamena\source\repos\C#_Upr2\C#_Upr2\obj\Debug\net8.0\C#_Upr2.dll
+C:\Users\Plamena\source\repos\C#_Upr2\C#_Upr2\obj\Debug\net8.0\refint\C#_Upr2.dll
+C:\Users\Plamena\source\repos\C#_Upr2\C#_Upr2\obj\Debug\net8.0\C#_Upr2.pdb
+C:\Users\Plamena\source\repos\C#_Upr2\C#_Upr2\obj\Debug\net8.0\C#_Upr2.genruntimeconfig.cache
+C:\Users\Plamena\source\repos\C#_Upr2\C#_Upr2\obj\Debug\net8.0\ref\C#_Upr2.dll
+C:\Users\Plamena\source\repos\C#_Upr2\C#_Upr2\bin\Debug\net8.0\input-01.txt
