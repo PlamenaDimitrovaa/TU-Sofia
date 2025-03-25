@@ -41,23 +41,28 @@ namespace C__Upr3
 
         static async Task GetIpInfo()
         {
-            Console.Write("Въведете IP адрес: ");
+            Console.WriteLine("Enter IP Address:");
             string ip = Console.ReadLine();
 
-            string url1 = $"https://progress.razorlabs.com/ip-detect/?ip={ip}";
-            string url2 = $"https://ipapi.co/{ip}/country/";
+            string url = $"https://ipapi.co/{ip}/country/";
 
-            using HttpClient client = new HttpClient();
+            using (HttpClient client = new HttpClient())
+            {
+                client.DefaultRequestHeaders.Add("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36");
 
-            try
-            {
-                string response = await client.GetStringAsync(url2);
-                Console.WriteLine($"Държава: {response.Trim()}");
+                try
+                {
+                    string country = await client.GetStringAsync(url);
+                    Console.WriteLine($"IP Address {ip} is from: {country}");
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"Error fetching data: {ex.Message}");
+                }
             }
-            catch (Exception ex)
-            {
-                Console.WriteLine("Грешка при извличане на информация: " + ex.Message);
-            }
+
+            Console.WriteLine("\nPress any key to exit.");
+            Console.ReadKey();
         }
 
         static async Task GetLocalTime()
