@@ -1,0 +1,17 @@
+C:\Users\Plamena\source\repos\C#_Upr3\C#_Upr3\bin\Debug\net8.0\C#_Upr3.exe
+C:\Users\Plamena\source\repos\C#_Upr3\C#_Upr3\bin\Debug\net8.0\C#_Upr3.deps.json
+C:\Users\Plamena\source\repos\C#_Upr3\C#_Upr3\bin\Debug\net8.0\C#_Upr3.runtimeconfig.json
+C:\Users\Plamena\source\repos\C#_Upr3\C#_Upr3\bin\Debug\net8.0\C#_Upr3.dll
+C:\Users\Plamena\source\repos\C#_Upr3\C#_Upr3\bin\Debug\net8.0\C#_Upr3.pdb
+C:\Users\Plamena\source\repos\C#_Upr3\C#_Upr3\bin\Debug\net8.0\HtmlAgilityPack.dll
+C:\Users\Plamena\source\repos\C#_Upr3\C#_Upr3\obj\Debug\net8.0\C#_Upr3.csproj.AssemblyReference.cache
+C:\Users\Plamena\source\repos\C#_Upr3\C#_Upr3\obj\Debug\net8.0\C#_Upr3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Plamena\source\repos\C#_Upr3\C#_Upr3\obj\Debug\net8.0\C#_Upr3.AssemblyInfoInputs.cache
+C:\Users\Plamena\source\repos\C#_Upr3\C#_Upr3\obj\Debug\net8.0\C#_Upr3.AssemblyInfo.cs
+C:\Users\Plamena\source\repos\C#_Upr3\C#_Upr3\obj\Debug\net8.0\C#_Upr3.csproj.CoreCompileInputs.cache
+C:\Users\Plamena\source\repos\C#_Upr3\C#_Upr3\obj\Debug\net8.0\C#_Upr3.csproj.Up2Date
+C:\Users\Plamena\source\repos\C#_Upr3\C#_Upr3\obj\Debug\net8.0\C#_Upr3.dll
+C:\Users\Plamena\source\repos\C#_Upr3\C#_Upr3\obj\Debug\net8.0\refint\C#_Upr3.dll
+C:\Users\Plamena\source\repos\C#_Upr3\C#_Upr3\obj\Debug\net8.0\C#_Upr3.pdb
+C:\Users\Plamena\source\repos\C#_Upr3\C#_Upr3\obj\Debug\net8.0\C#_Upr3.genruntimeconfig.cache
+C:\Users\Plamena\source\repos\C#_Upr3\C#_Upr3\obj\Debug\net8.0\ref\C#_Upr3.dll

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "bIa48FdM4h/FZJ5Vk19VowDKMxFrxSE7f1SugAT/Vg4iYLTvbM1S6AVzwORFlGp2U3HxTpjFzniECavo5DAjpA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Plamena\\source\\repos\\C#_Upr3\\C#_Upr3\\C#_Upr3.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Plamena\\.nuget\\packages\\htmlagilitypack\\1.12.0\\htmlagilitypack.1.12.0.nupkg.sha512"
+  ],
+  "logs": []
+}
