@@ -1,0 +1,15 @@
+C:\Users\ppdimitrova\source\repos\Transliteration\Transliteration.Web.ViewModelss\bin\Debug\net8.0\Transliteration.Web.ViewModels.deps.json
+C:\Users\ppdimitrova\source\repos\Transliteration\Transliteration.Web.ViewModelss\bin\Debug\net8.0\Transliteration.Web.ViewModels.dll
+C:\Users\ppdimitrova\source\repos\Transliteration\Transliteration.Web.ViewModelss\bin\Debug\net8.0\Transliteration.Web.ViewModels.pdb
+C:\Users\ppdimitrova\source\repos\Transliteration\Transliteration.Web.ViewModelss\bin\Debug\net8.0\Transliteration.Data.Models.dll
+C:\Users\ppdimitrova\source\repos\Transliteration\Transliteration.Web.ViewModelss\bin\Debug\net8.0\Transliteration.Data.Models.pdb
+C:\Users\ppdimitrova\source\repos\Transliteration\Transliteration.Web.ViewModelss\obj\Debug\net8.0\Transliteration.Web.ViewModels.csproj.AssemblyReference.cache
+C:\Users\ppdimitrova\source\repos\Transliteration\Transliteration.Web.ViewModelss\obj\Debug\net8.0\Transliteration.Web.ViewModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ppdimitrova\source\repos\Transliteration\Transliteration.Web.ViewModelss\obj\Debug\net8.0\Transliteration.Web.ViewModels.AssemblyInfoInputs.cache
+C:\Users\ppdimitrova\source\repos\Transliteration\Transliteration.Web.ViewModelss\obj\Debug\net8.0\Transliteration.Web.ViewModels.AssemblyInfo.cs
+C:\Users\ppdimitrova\source\repos\Transliteration\Transliteration.Web.ViewModelss\obj\Debug\net8.0\Transliteration.Web.ViewModels.csproj.CoreCompileInputs.cache
+C:\Users\ppdimitrova\source\repos\Transliteration\Transliteration.Web.ViewModelss\obj\Debug\net8.0\Translit.57640B91.Up2Date
+C:\Users\ppdimitrova\source\repos\Transliteration\Transliteration.Web.ViewModelss\obj\Debug\net8.0\Transliteration.Web.ViewModels.dll
+C:\Users\ppdimitrova\source\repos\Transliteration\Transliteration.Web.ViewModelss\obj\Debug\net8.0\refint\Transliteration.Web.ViewModels.dll
+C:\Users\ppdimitrova\source\repos\Transliteration\Transliteration.Web.ViewModelss\obj\Debug\net8.0\Transliteration.Web.ViewModels.pdb
+C:\Users\ppdimitrova\source\repos\Transliteration\Transliteration.Web.ViewModelss\obj\Debug\net8.0\ref\Transliteration.Web.ViewModels.dll

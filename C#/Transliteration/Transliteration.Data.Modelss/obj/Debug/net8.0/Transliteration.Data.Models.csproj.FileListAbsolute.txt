@@ -1,0 +1,11 @@
+C:\Users\ppdimitrova\source\repos\Transliteration\Transliteration.Data.Modelss\bin\Debug\net8.0\Transliteration.Data.Models.deps.json
+C:\Users\ppdimitrova\source\repos\Transliteration\Transliteration.Data.Modelss\bin\Debug\net8.0\Transliteration.Data.Models.dll
+C:\Users\ppdimitrova\source\repos\Transliteration\Transliteration.Data.Modelss\bin\Debug\net8.0\Transliteration.Data.Models.pdb
+C:\Users\ppdimitrova\source\repos\Transliteration\Transliteration.Data.Modelss\obj\Debug\net8.0\Transliteration.Data.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ppdimitrova\source\repos\Transliteration\Transliteration.Data.Modelss\obj\Debug\net8.0\Transliteration.Data.Models.AssemblyInfoInputs.cache
+C:\Users\ppdimitrova\source\repos\Transliteration\Transliteration.Data.Modelss\obj\Debug\net8.0\Transliteration.Data.Models.AssemblyInfo.cs
+C:\Users\ppdimitrova\source\repos\Transliteration\Transliteration.Data.Modelss\obj\Debug\net8.0\Transliteration.Data.Models.csproj.CoreCompileInputs.cache
+C:\Users\ppdimitrova\source\repos\Transliteration\Transliteration.Data.Modelss\obj\Debug\net8.0\Transliteration.Data.Models.dll
+C:\Users\ppdimitrova\source\repos\Transliteration\Transliteration.Data.Modelss\obj\Debug\net8.0\refint\Transliteration.Data.Models.dll
+C:\Users\ppdimitrova\source\repos\Transliteration\Transliteration.Data.Modelss\obj\Debug\net8.0\Transliteration.Data.Models.pdb
+C:\Users\ppdimitrova\source\repos\Transliteration\Transliteration.Data.Modelss\obj\Debug\net8.0\ref\Transliteration.Data.Models.dll

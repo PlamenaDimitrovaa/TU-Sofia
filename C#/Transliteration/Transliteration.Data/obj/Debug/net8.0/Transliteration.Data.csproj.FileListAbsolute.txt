@@ -1,0 +1,5 @@
+C:\Users\ppdimitrova\source\repos\Transliteration\Transliteration.Data\obj\Debug\net8.0\Transliteration.Data.csproj.AssemblyReference.cache
+C:\Users\ppdimitrova\source\repos\Transliteration\Transliteration.Data\obj\Debug\net8.0\Transliteration.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ppdimitrova\source\repos\Transliteration\Transliteration.Data\obj\Debug\net8.0\Transliteration.Data.AssemblyInfoInputs.cache
+C:\Users\ppdimitrova\source\repos\Transliteration\Transliteration.Data\obj\Debug\net8.0\Transliteration.Data.AssemblyInfo.cs
+C:\Users\ppdimitrova\source\repos\Transliteration\Transliteration.Data\obj\Debug\net8.0\Transliteration.Data.csproj.CoreCompileInputs.cache
