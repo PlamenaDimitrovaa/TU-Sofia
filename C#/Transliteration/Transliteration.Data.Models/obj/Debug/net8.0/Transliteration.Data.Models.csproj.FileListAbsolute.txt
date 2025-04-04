@@ -1,4 +1,0 @@
-C:\Users\ppdimitrova\source\repos\Transliteration\Transliteration.Data.Models\obj\Debug\net8.0\Transliteration.Data.Models.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\ppdimitrova\source\repos\Transliteration\Transliteration.Data.Models\obj\Debug\net8.0\Transliteration.Data.Models.AssemblyInfoInputs.cache
-C:\Users\ppdimitrova\source\repos\Transliteration\Transliteration.Data.Models\obj\Debug\net8.0\Transliteration.Data.Models.AssemblyInfo.cs
-C:\Users\ppdimitrova\source\repos\Transliteration\Transliteration.Data.Models\obj\Debug\net8.0\Transliteration.Data.Models.csproj.CoreCompileInputs.cache
