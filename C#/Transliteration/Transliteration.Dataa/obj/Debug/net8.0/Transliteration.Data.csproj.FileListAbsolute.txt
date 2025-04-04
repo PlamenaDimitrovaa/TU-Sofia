@@ -1,0 +1,15 @@
+C:\Users\ppdimitrova\source\repos\Transliteration\Transliteration.Dataa\bin\Debug\net8.0\Transliteration.Data.deps.json
+C:\Users\ppdimitrova\source\repos\Transliteration\Transliteration.Dataa\bin\Debug\net8.0\Transliteration.Data.dll
+C:\Users\ppdimitrova\source\repos\Transliteration\Transliteration.Dataa\bin\Debug\net8.0\Transliteration.Data.pdb
+C:\Users\ppdimitrova\source\repos\Transliteration\Transliteration.Dataa\bin\Debug\net8.0\Transliteration.Data.Models.dll
+C:\Users\ppdimitrova\source\repos\Transliteration\Transliteration.Dataa\bin\Debug\net8.0\Transliteration.Data.Models.pdb
+C:\Users\ppdimitrova\source\repos\Transliteration\Transliteration.Dataa\obj\Debug\net8.0\Transliteration.Data.csproj.AssemblyReference.cache
+C:\Users\ppdimitrova\source\repos\Transliteration\Transliteration.Dataa\obj\Debug\net8.0\Transliteration.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ppdimitrova\source\repos\Transliteration\Transliteration.Dataa\obj\Debug\net8.0\Transliteration.Data.AssemblyInfoInputs.cache
+C:\Users\ppdimitrova\source\repos\Transliteration\Transliteration.Dataa\obj\Debug\net8.0\Transliteration.Data.AssemblyInfo.cs
+C:\Users\ppdimitrova\source\repos\Transliteration\Transliteration.Dataa\obj\Debug\net8.0\Transliteration.Data.csproj.CoreCompileInputs.cache
+C:\Users\ppdimitrova\source\repos\Transliteration\Transliteration.Dataa\obj\Debug\net8.0\Translit.2DABF3A4.Up2Date
+C:\Users\ppdimitrova\source\repos\Transliteration\Transliteration.Dataa\obj\Debug\net8.0\Transliteration.Data.dll
+C:\Users\ppdimitrova\source\repos\Transliteration\Transliteration.Dataa\obj\Debug\net8.0\refint\Transliteration.Data.dll
+C:\Users\ppdimitrova\source\repos\Transliteration\Transliteration.Dataa\obj\Debug\net8.0\Transliteration.Data.pdb
+C:\Users\ppdimitrova\source\repos\Transliteration\Transliteration.Dataa\obj\Debug\net8.0\ref\Transliteration.Data.dll

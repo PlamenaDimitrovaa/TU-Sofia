@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.3" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="9.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Transliteration.Dataa\Transliteration.Data.csproj" />
+    <ProjectReference Include="..\Transliteration.Services.Dataa\Transliteration.Services.Data.csproj" />
+    <ProjectReference Include="..\Transliteration.Web.ViewModelss\Transliteration.Web.ViewModels.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Transliteration.Web.props" />
+</Project>

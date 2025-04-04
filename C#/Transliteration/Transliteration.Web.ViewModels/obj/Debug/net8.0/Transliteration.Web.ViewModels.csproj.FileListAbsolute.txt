@@ -1,0 +1,4 @@
+C:\Users\ppdimitrova\source\repos\Transliteration\Transliteration.Web.ViewModels\obj\Debug\net8.0\Transliteration.Web.ViewModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ppdimitrova\source\repos\Transliteration\Transliteration.Web.ViewModels\obj\Debug\net8.0\Transliteration.Web.ViewModels.AssemblyInfoInputs.cache
+C:\Users\ppdimitrova\source\repos\Transliteration\Transliteration.Web.ViewModels\obj\Debug\net8.0\Transliteration.Web.ViewModels.AssemblyInfo.cs
+C:\Users\ppdimitrova\source\repos\Transliteration\Transliteration.Web.ViewModels\obj\Debug\net8.0\Transliteration.Web.ViewModels.csproj.CoreCompileInputs.cache
