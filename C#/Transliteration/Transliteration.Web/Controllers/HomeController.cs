@@ -47,6 +47,13 @@ namespace Transliteration.Web.Controllers
         [HttpGet]
         public IActionResult Search(string query)
         {
+            if (string.IsNullOrWhiteSpace(query))
+            {
+                return RedirectToAction("Index");
+            }
+
+            LogSearchQuery(query);
+
             var transliteratedQuery = _transliterationService.TransliterateCyrToLat(query);
 
             var results = _context.NameEntries
@@ -60,6 +67,21 @@ namespace Transliteration.Web.Controllers
             };
 
             return View("Index", model);
+        }
+
+        private void LogSearchQuery(string query)
+        {
+            if (!string.IsNullOrWhiteSpace(query))
+            {
+                var log = new SearchLog
+                {
+                    Query = query,
+                    SearchDate = DateTime.UtcNow
+                };
+
+                _context.SearchLogs.Add(log);
+                _context.SaveChanges();
+            }
         }
     }
 }
